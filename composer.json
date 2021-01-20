@@ -1,0 +1,20 @@
+{
+  "name": "hard-soft/cakephp-icalcreator",
+  "description": "ICal creator methods",
+  "type": "cakephp-plugin",
+  "keywords": ["cakephp", "ical", "attachments"],
+  "authors": [
+    {
+      "name": "Daniel Spöck",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "aws/aws-sdk-php": "2.*"
+  },
+  "autoload": {
+      "psr-4": {
+          "S3Fineuploader\\": "src/"
+      }
+  }
+}
