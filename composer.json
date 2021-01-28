@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "aws/aws-sdk-php": "2.*"
+    "aws/aws-sdk-php": "^3.172"
   },
   "autoload": {
       "psr-4": {
